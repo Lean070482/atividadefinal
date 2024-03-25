@@ -1,0 +1,23 @@
+@keyframes animação{
+    0% {background-color: blue;width: 2000px;}
+    50% {background-color: green;width: 1000px;}
+   100% {background-color: black;width: 10px;}
+   }
+   
+   
+   
+   *{
+       margin:0;
+       padding:0;
+       box-sizing: border-box;
+   }
+   
+   
+   .container{
+       width: 1700px;
+       height: 500px;
+       background-color: blue;
+       animation-name: animação;
+       animation-duration: 6s;
+       animation-delay: 2s;
+   }
